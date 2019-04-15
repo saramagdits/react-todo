@@ -1,0 +1,12 @@
+{
+  "name": "todo",
+  "version": "1.0.0",
+  "main": "app.js",
+  "repository": "https://github.com/saramagdits/react-todo.git",
+  "author": "Sara Magdits <saramagdits@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "babel-preset-env": "1.5.2",
+    "babel-preset-react": "6.24.1"
+  }
+}

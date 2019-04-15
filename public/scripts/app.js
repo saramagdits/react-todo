@@ -1,12 +1,13 @@
+'use strict';
+
 console.log('app.js is running');
 
 // JSX - JavaScript XML
-// const template = <p>This is JSX</p>;
-const template = React.createElement(
-		"h1",
-		{id: "someid"},
-		"I made a header tag!"
+var template = React.createElement(
+  'h1',
+  null,
+  'Using Babel'
 );
-const appRoot = document.getElementById('app');
+var appRoot = document.getElementById('app');
 
 ReactDOM.render(template, appRoot);
